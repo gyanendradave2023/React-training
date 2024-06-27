@@ -9,7 +9,7 @@ const SignInComponent = () => {
   const userNameHandler = (e) => setUserName(e.target.value);
   const passwordHandler = (e) => setPassword(e.target.value);
 
-  const formHandler = () => console.log({ name, email, userName, password });
+  const formHandler = () => console.log({ name, userName, password });
 
   return (
     <div className="signUpContainer">
